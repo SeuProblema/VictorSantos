@@ -20,7 +20,6 @@ class WebServer():
     t = Thread(target=self.run)
     t.start()
 
-
 class RunBot():
   room_id = "66c9f62404794f797d1467af"
   bot_token = "927c94e82e4ed8d9c5949f0dc9e845a9cbb98cccd192418758b6315d08e2fadc"
