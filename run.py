@@ -35,12 +35,12 @@ class RunBot():
 
   def run_loop(self) -> None:
     while True:
-        try:
-            print(f"Connecting to room {self.room_id} with token {self.bot_token}")
-            arun(main(self.definitions))
-        except Exception as e:
-            print("Error: ", e)
-            time.sleep(5)
+      try:
+        arun(main(self.definitions))
+
+      except Exception as e:
+        print("Error: ", e)
+        time.sleep(5)
 
 if __name__ == "__main__":
   WebServer().keep_alive()
