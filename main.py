@@ -633,7 +633,7 @@ class Bot(BaseBot):
             await self.highrise.send_emote("emote-looping",user.id)
 
         if              message.startswith("Fairyfloat All") or                              message.startswith("/emote all fairyfloat") or       message.startswith("!emote all fairyfloat"):
-          if user.username == "SeuProblema" or user.username == "B_w_2" or user.username == "Matii_fofi" or user.username == "YeoneSukimi":
+          if user.username == "ybear_" or user.username == "ybear_" or user.username == "ybear_" or user.username == "ybear_":
             roomUsers = (await self.highrise.get_room_users()).content
             for roomUser, _ in roomUsers:
                 await self.highrise.send_emote("idle-floating", roomUser.id)
