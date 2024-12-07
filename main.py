@@ -1392,7 +1392,7 @@ class Bot(BaseBot):
             await self.highrise.send_emote("dance-tiktok14")
               
         if message.startswith("!kick"):
-          if user.username == "ShoKytoo":
+          if user.username == "ybear_":
               pass
           else:
               await self.highrise.chat("Voce não tem permissao para usar esse comando.")
@@ -1528,7 +1528,7 @@ class Bot(BaseBot):
         print(f"{user.username} whispered: {message}")
 
         if        message.startswith("/tele") or              message.startswith("/tp") or              message.startswith("/fly") or     message.startswith("!tele") or      message.startswith("!tp") or     message.startswith("!fly"):
-          if user.username == "SeuProblema" or user.username == "B_w_2" or user.username == "Matii_fofi" or user.username == "YeoneSukimi":
+          if user.username == "ybear_" or user.username == "B_w_2" or user.username == "Matii_fofi" or user.username == "YeoneSukimi":
             await self.teleporter(message)
 
         if        message.startswith("/") or              message.startswith("-") or              message.startswith(".") or          message.startswith("!"):
