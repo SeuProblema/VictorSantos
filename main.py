@@ -38,7 +38,7 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(0.5 ,0.0 ,9.5 , "FrontLeft"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.send_whisper(user.id,f"🍓Bem vindo(a) {user.username} a sala de grab a melhor do momento, boas compras e negociaçoes, chame no privado do propietario do grab.🍓")
+        await self.highrise.send_whisper(user.id,f"🍓Bem vindo (a) {user.username} “Você está na melhor sala de grabs! Aqui, realizamos vendas, trocas e muito mais. Para negociar diretamente, envie uma mensagem ao proprietário do grab desejado. Boas compras e trocas!”.🛍️🔥")
     
         await self.highrise.send_emote("dance-hipshake")
       
